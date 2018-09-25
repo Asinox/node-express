@@ -15,13 +15,23 @@ exports.book_detail = function(req, res){
 };
 
 // Display book create form on GET.
-exports.book_created_get = function(req, res){
+exports.book_create_get = function(req, res){
     res.send('NOT IMPLEMENTED: Book create GET');
 };
 
 // Display book create form on POST.
 exports.book_create_post = function(req, res){
     res.send(' NOT IMPLEMENTED: book delete POST');
+};
+
+// Display book delete form on GET.
+exports.book_delete_get = function(req, res) {
+    res.send('NOT IMPLEMENTED: Book delete GET');
+};
+
+// Handle book delete on POST.
+exports.book_delete_post = function(req, res) {
+    res.send('NOT IMPLEMENTED: Book delete POST');
 };
 
 // Display book update form on GET
