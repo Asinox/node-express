@@ -42,8 +42,6 @@ exports.genre_detail = function(req, res, next){
 
         }
     );
-
-    //res.send('NOT IMPLEMENTED: Genre detail: ' + req.params.id);
 }
 
 // Display Genre create form on GET.
